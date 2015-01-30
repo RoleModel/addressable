@@ -1,0 +1,23 @@
+{
+  "name": "addressable",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/RoleModel/addressable",
+  "authors": [
+    "Caleb Woods <calebawoods@gmail.com>"
+  ],
+  "description": "Dynamically find nested properties on an object",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "nested properties"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec"
+  ]
+}

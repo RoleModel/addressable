@@ -51,3 +51,8 @@ This builds a new version in the `dist` directory.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Release History
+
+* 0.2.0 Add Angular module
+* 0.1.1 Add Bower Package
+* 0.1.0 Initial release

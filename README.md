@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/RoleModel/addressable.svg?branch=master)](https://travis-ci.org/RoleModel/addressable)
 
+[![Code Climate](https://codeclimate.com/github/RoleModel/addressable/badges/gpa.svg)](https://codeclimate.com/github/RoleModel/addressable)
+
 # Addressable
 
 Small library for accessing nested properties of a Javascript object.

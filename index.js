@@ -1,1 +1,1 @@
-module.exports['Addressable'] = require('./lib/addressable');
+module.exports = require('./lib/addressable');

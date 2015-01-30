@@ -33,6 +33,27 @@ Addressable.find(obj, 'tags[].color.name') => [ 'blue', 'yellow' ]
 
 See [tests](spec/addressable_spec.js) for full example
 
+## Angular Example
+
+```js
+angular.module('myApp', ['addressable']);
+
+angular.module('myApp').factory('Person', ['Addressable', function (Addressable) {
+  var Person = function () {
+    this.country = {
+      name: 'United States',
+      shortName: 'USA'
+    }
+  };
+
+  Person.prototype.countryName = function () {
+    return Addressable.find(this, 'country.name');
+  };
+
+  return Person;
+}]);
+```
+
 ## Build
 
 To build the browserify module version of the gem use the npm build script.

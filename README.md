@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/RoleModel/addressable.svg?branch=master)](https://travis-ci.org/RoleModel/addressable)
+[![Build Status](https://travis-ci.org/RoleModel/addressable.svg?branch=master)](https://travis-ci.org/RoleModel/addressable) [![Code Climate](https://codeclimate.com/github/RoleModel/addressable/badges/gpa.svg)](https://codeclimate.com/github/RoleModel/addressable)
 
-[![Code Climate](https://codeclimate.com/github/RoleModel/addressable/badges/gpa.svg)](https://codeclimate.com/github/RoleModel/addressable)
+[![NPM](https://nodei.co/npm/addressable-node.png?compact=true)](https://nodei.co/npm/addressable-node/)
 
 # Addressable
 

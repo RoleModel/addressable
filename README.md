@@ -45,9 +45,9 @@ See [tests](spec/addressable_spec.js) for full example
 ## Angular Example
 
 ```js
-angular.module('myApp', ['addressable']);
+var myApp = angular.module('myApp', ['addressable']);
 
-angular.module('myApp').factory('Person', ['Addressable', function (Addressable) {
+myApp.factory('Person', ['Addressable', function (Addressable) {
   var Person = function () {
     this.country = {
       name: 'United States',

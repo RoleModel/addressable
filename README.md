@@ -29,6 +29,16 @@ Addressable.find(obj, 'tags[].color.name') => [ 'blue', 'yellow' ]
 
 See [tests](spec/addressable_spec.js) for full example
 
+## Build
+
+To build the browserify module version of the gem use the npm build script.
+
+```
+npm run build
+```
+
+This builds a new version in the `dist` directory.
+
 ## Contributing
 
 1. Fork it

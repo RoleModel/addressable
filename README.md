@@ -6,6 +6,15 @@
 
 Small library for accessing nested properties of a Javascript object.
 
+## Install
+
+Install via Bower or NPM.
+
+```
+npm install addressable-node
+bower install addressable
+```
+
 ## Node Example
 
 ```js
@@ -23,7 +32,7 @@ var obj = {
   ]
 }
 
-var Addressable = require('addressable');
+var Addressable = require('addressable-node');
 
 Addressable.find(obj, 'country.name') => 'USA'
 new Addressable(obj).find('country.name') => 'USA'

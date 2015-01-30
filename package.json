@@ -1,5 +1,5 @@
 {
-  "name": "addressable",
+  "name": "addressable-node",
   "version": "0.2.0",
   "description": "Dynamically find nested properties on an object",
   "main": "index.js",

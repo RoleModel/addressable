@@ -27,7 +27,7 @@ new Addressable(obj).find('country.name') => 'USA'
 Addressable.find(obj, 'tags[].color.name') => [ 'blue', 'yellow' ]
 ```
 
-See tests for full example
+See [tests](spec/addressable_spec.js) for full example
 
 ## Contributing
 

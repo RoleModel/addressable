@@ -17,6 +17,16 @@ describe('Addressable', function () {
         { color: { name: 'blue' } },
         { color: { name: 'yellow' } }
       ],
+      nicknames: [
+        {
+          name: 'Bobby',
+          related: [ { name: 'Joey' } ]
+        },
+        {
+          name: 'Robert',
+          related: [ { name: 'Hubert' } ]
+        }
+      ],
       notes: 'What about Bob?',
       methodProperty: function () {
         return 'foo - bar';
@@ -47,6 +57,12 @@ describe('Addressable', function () {
     describe('array address', function () {
       it('finds the values', function () {
         expect(addressable.find('tags[].color.name')).toEqual([ 'blue', 'yellow' ]);
+      });
+    });
+
+    describe('array with nested array address', function () {
+      it('finds the values', function () {
+        expect(addressable.find('nicknames[].related[].name')).toEqual([ [ 'Joey' ], [ 'Hubert' ] ]);
       });
     });
 

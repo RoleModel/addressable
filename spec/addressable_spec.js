@@ -80,6 +80,19 @@ describe('Addressable', function () {
       it('doesn\'t find the value', function () {
         expect(addressable.find('foo.name')).toBeUndefined();
       });
+
+      it('doesn\'t error with a method call', function () {
+        expect(addressable.find('foo().name')).toBeUndefined();
+      });
+    });
+
+    describe('invalid subject', function () {
+      it('doesn\'t blow up', function () {
+        data = undefined;
+        addressable = new Addressable(data);
+
+        expect(addressable.find('foo.name')).toBeUndefined();
+      });
     });
   });
 });
